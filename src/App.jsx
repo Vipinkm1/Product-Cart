@@ -1,9 +1,10 @@
 
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Cart from './components/Cart/cart'
+
 import ProductPage from './components/Product/ProductPage'
 import { CartProvider } from './components/CartContext'
+import Cart from './components/Cart/Cart';
 function App() {
   return (
     <>
